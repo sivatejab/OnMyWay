@@ -10,5 +10,5 @@
 @interface OMWNetworkManager : AFHTTPSessionManager
 
 + (instancetype)sharedNetworkManager;
-
+-(void) queryPlacesOfInterestWithUserLocation:(CLLocationCoordinate2D)userLocation withType:(NSString*)type inRadius:(int)radius;
 @end

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		47034D2E1B16001E00643F87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47034D2D1B16001E00643F87 /* ViewController.m */; };
 		47034D311B16003900643F87 /* OMWNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47034D301B16003900643F87 /* OMWNetworkManager.m */; };
+		47034D361B1734F800643F87 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47034D351B1734F800643F87 /* RootViewController.m */; };
 		47D75D491B0E326D00549C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D75D481B0E326D00549C32 /* main.m */; };
 		47D75D4C1B0E326D00549C32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D75D4B1B0E326D00549C32 /* AppDelegate.m */; };
 		47D75D4F1B0E326D00549C32 /* OnMyWay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47D75D4D1B0E326D00549C32 /* OnMyWay.xcdatamodeld */; };
@@ -39,6 +40,9 @@
 		47034D2D1B16001E00643F87 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		47034D2F1B16003900643F87 /* OMWNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMWNetworkManager.h; sourceTree = "<group>"; };
 		47034D301B16003900643F87 /* OMWNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMWNetworkManager.m; sourceTree = "<group>"; };
+		47034D321B1725EB00643F87 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		47034D341B1734F800643F87 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		47034D351B1734F800643F87 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		47D75D431B0E326D00549C32 /* OnMyWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnMyWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D75D471B0E326D00549C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D75D481B0E326D00549C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 			children = (
 				47034D2F1B16003900643F87 /* OMWNetworkManager.h */,
 				47034D301B16003900643F87 /* OMWNetworkManager.m */,
+				47034D331B17273200643F87 /* GoogleRequests */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -93,8 +98,17 @@
 			children = (
 				47034D2C1B16001E00643F87 /* ViewController.h */,
 				47034D2D1B16001E00643F87 /* ViewController.m */,
+				47034D341B1734F800643F87 /* RootViewController.h */,
+				47034D351B1734F800643F87 /* RootViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		47034D331B17273200643F87 /* GoogleRequests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoogleRequests;
 			sourceTree = "<group>";
 		};
 		47D75D3A1B0E326C00549C32 = {
@@ -126,6 +140,7 @@
 			children = (
 				47D75D4A1B0E326D00549C32 /* AppDelegate.h */,
 				47D75D4B1B0E326D00549C32 /* AppDelegate.m */,
+				47034D321B1725EB00643F87 /* Common.h */,
 				47034D2A1B16001E00643F87 /* Network */,
 				47034D2B1B16001E00643F87 /* ViewControllers */,
 				47D75D531B0E326D00549C32 /* Main.storyboard */,
@@ -318,6 +333,7 @@
 			files = (
 				47034D311B16003900643F87 /* OMWNetworkManager.m in Sources */,
 				47D75D4C1B0E326D00549C32 /* AppDelegate.m in Sources */,
+				47034D361B1734F800643F87 /* RootViewController.m in Sources */,
 				47D75D491B0E326D00549C32 /* main.m in Sources */,
 				47034D2E1B16001E00643F87 /* ViewController.m in Sources */,
 				47D75D4F1B0E326D00549C32 /* OnMyWay.xcdatamodeld in Sources */,

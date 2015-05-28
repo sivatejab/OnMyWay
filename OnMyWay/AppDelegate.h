@@ -10,6 +10,8 @@
 #import <CoreData/CoreData.h>
 @import CoreLocation;
 
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
